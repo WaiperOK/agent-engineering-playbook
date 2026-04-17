@@ -20,6 +20,11 @@ If you fix those five things, cost usually goes down while output quality goes u
 
 This README is the first post in a longer series. The next topics are listed in [ROADMAP.md](./ROADMAP.md).
 
+## Published posts
+
+- [How to optimize AI agents and token usage in Codex and Claude Code](./README.md)
+- [Agent Security for Real Teams](./posts/agent-security-for-real-teams.md)
+
 ## Why this repo exists
 
 There is a lot of discussion about which coding agent is "better."
@@ -445,7 +450,6 @@ That is how you turn coding agents from expensive demo machines into real operat
 
 The next wave of posts in this repo will focus on the harder side of the problem:
 
-- agent security
 - prompt injection against tool-using agents
 - secrets and environment isolation
 - MCP risk boundaries

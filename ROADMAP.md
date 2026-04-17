@@ -4,21 +4,25 @@ This repository is intended to become a long-form series on practical AI agent e
 
 ## Planned posts
 
-1. **Agent Security for Real Teams**
-   Sandbox boundaries, approval models, least privilege, and why "trusted mode" is not a philosophy.
-2. **Prompt Injection Against Tool-Using Agents**
+Published:
+
+- [Agent Security for Real Teams](./posts/agent-security-for-real-teams.md)
+
+Upcoming:
+
+1. **Prompt Injection Against Tool-Using Agents**
    How hostile docs, issues, web pages, and MCP sources hijack agent behavior.
-3. **Secrets, Tokens, and Environment Isolation**
+2. **Secrets, Tokens, and Environment Isolation**
    How to stop agents from casually touching `.env`, cloud credentials, and production-adjacent systems.
-4. **Safe MCP Design**
+3. **Safe MCP Design**
    Trust boundaries, narrow tools, allowlists, and how to avoid turning integrations into attack surfaces.
-5. **Code Review for Agent Output**
+4. **Code Review for Agent Output**
    What humans should still review manually, what can be automated, and how to catch high-cost regressions early.
-6. **When to Spawn More Agents and When Not To**
+5. **When to Spawn More Agents and When Not To**
    The economics of parallelism, fan-out, and isolated contexts.
-7. **Context Architecture**
+6. **Context Architecture**
    A deeper guide to `AGENTS.md`, `CLAUDE.md`, skills, hooks, imports, and cache-friendly prompt layout.
-8. **Benchmarks That Actually Matter**
+7. **Benchmarks That Actually Matter**
    Why teams should track merge quality, retries, clarification turns, and bug escape rate instead of vibes.
 
 ## Editorial direction
